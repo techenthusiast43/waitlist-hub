@@ -1,7 +1,10 @@
 import { BaseError, ContractFunctionRevertedError, isAddress, type Address } from "viem";
 
+export const DEFAULT_WAITLIST_HUB_ADDRESS: Address =
+  "0xe770F12345792e325C32BF3D834EaAEaC701b51A";
+
 export const rawContractAddress = (
-  import.meta.env.VITE_WAITLIST_HUB_ADDRESS || ""
+  import.meta.env.VITE_WAITLIST_HUB_ADDRESS || DEFAULT_WAITLIST_HUB_ADDRESS
 ).trim();
 
 export const WAITLIST_HUB_ADDRESS: Address | null = isAddress(rawContractAddress)
