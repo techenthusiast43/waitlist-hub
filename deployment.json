@@ -1,0 +1,8 @@
+{
+  "network": "botchainTestnet",
+  "chainId": 968,
+  "contractAddress": "0xe770F12345792e325C32BF3D834EaAEaC701b51A",
+  "deployer": "0xA8138611baccdfdAc62B569aE8F360a7E0d54EC9",
+  "txHash": "0xb6d40679c538ea528b7e8f432e164e7cb91fcf6ad5d2aa5b8a6dee5db0758a8b",
+  "deployedAt": "2026-11-12T04:19:03.081Z"
+}

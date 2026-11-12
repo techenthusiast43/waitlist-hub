@@ -1,0 +1,21 @@
+{
+  "name": "waitlisthub-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WaitlistHub smart contract, tests, and deployment scripts for BOT Chain Testnet",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network botchainTestnet",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
+    "verify:testnet": "hardhat run scripts/verify-live.ts --network botchainTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.26.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
+
